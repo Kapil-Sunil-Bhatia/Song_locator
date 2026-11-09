@@ -1,0 +1,32 @@
+SONG LOCATOR (Android app)
+==========================
+
+Reads the music library on your phone and lets you search any song to see
+which folder it is in. Tap a song to play it. Hold a song to copy its path.
+
+OPTION A: build with GitHub (no Android Studio needed)
+------------------------------------------------------
+1. On a computer, make a free account at github.com and create a new empty
+   repository (Public or Private).
+2. Unzip this project. In the new repository click "Add file" > "Upload files"
+   and drag in EVERYTHING inside the SongLocator folder, including the hidden
+   ".github" folder. Click "Commit changes".
+3. Open the "Actions" tab. The "Build APK" job starts by itself and takes
+   about 3 to 5 minutes.
+4. When it shows a green tick, open it and download "SongLocator-apk" from the
+   Artifacts section at the bottom. Unzip it to get app-debug.apk.
+5. Send app-debug.apk to your phone (Drive, USB cable, email) and open it.
+   Android will ask you to allow installs from that app (Files, Chrome, etc.).
+   Allow it once, then install.
+
+OPTION B: build with Android Studio
+-----------------------------------
+1. Install Android Studio on a computer, choose File > Open and pick this
+   folder. Wait for the Gradle sync to finish.
+2. Build > Build Bundle(s) / APK(s) > Build APK(s).
+3. Click "locate" in the popup. The file is app-debug.apk.
+
+FIRST RUN ON THE PHONE
+----------------------
+Allow "Music and audio" access when asked. Songs inside folders that contain
+a ".nomedia" file are not listed, because Android hides those from apps.

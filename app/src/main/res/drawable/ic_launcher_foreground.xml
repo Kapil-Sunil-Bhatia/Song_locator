@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- beam joining the two stems -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,40 L75,35 L75,41 L50,46 Z" />
+    <!-- stems -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,40 L53,40 L53,68 L50,68 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,35 L75,35 L75,64 L72,64 Z" />
+    <!-- note heads -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,68 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,64 a7,6 0 1,0 14,0 a7,6 0 1,0 -14,0 Z" />
+</vector>
